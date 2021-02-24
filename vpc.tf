@@ -6,7 +6,7 @@ module "network" {
   network_name = "dinesh-network"
   subnets = [
     {
-      subnet_name   = "dinesh-subnet"
+      subnet_name   = "ravee-subnet"
       subnet_ip     = "10.100.10.0/24"
       subnet_region = var.region
     }
