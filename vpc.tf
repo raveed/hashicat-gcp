@@ -3,8 +3,7 @@ module "network" {
   version = "2.5.0"
   # insert required variables here
   project_id   = var.project
-  network_name = "example-vpc"
-  routing_mode = "GLOBAL"
+  network_name = "dinesh-network"
   subnets = [
     {
       subnet_name   = "dinesh-subnet"
